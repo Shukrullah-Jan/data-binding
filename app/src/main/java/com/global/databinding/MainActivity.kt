@@ -1,6 +1,7 @@
 package com.global.databinding
 
 import android.os.Bundle
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import com.global.databinding.databinding.ActivityMainBinding
@@ -15,6 +16,7 @@ class MainActivity : AppCompatActivity() {
 
         activityMainBinding.tvData = "Hey it is very simple"
 
+        Toast.makeText(this, "hey", Toast.LENGTH_LONG).show()
         val user = User(
             "Kamal",
             23,
