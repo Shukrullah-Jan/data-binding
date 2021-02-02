@@ -1,12 +1,8 @@
 package com.global.databinding
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
-import android.widget.ImageView
-import androidx.databinding.BindingAdapter
+import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
-import com.bumptech.glide.Glide
 import com.global.databinding.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -26,6 +22,7 @@ class MainActivity : AppCompatActivity() {
             "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg"
         )
 
+        // this is only a comment and i am checking whether it is working or not.
         activityMainBinding.myUser = user
 
 
